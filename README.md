@@ -8,7 +8,7 @@ This stored procedure has been modified and extended with several options
 - Custom Error messages
 
 Execute Statement: 
-> ```  
+ ```  
     exec [dbo].[sp_ExecAllpackages] 
           @var_foldername = 'SP_Test' , 
           @var_projectname = 'SP_Test',
