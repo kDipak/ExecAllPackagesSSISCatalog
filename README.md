@@ -7,18 +7,21 @@ This stored procedure has been modified and extended with several options
 - Exclusion list - view
 - Custom Error messages
 
-Execute Statement: 
+###### Execute Statement: 
  ```  
     exec [dbo].[sp_ExecAllPackages] 
           @var_foldername = 'SP_Test' , 
           @var_projectname = 'SP_Test',
           @synchronized = 1, 
-          @RetryCounter = 5```
+          @RetryCounter = 5
+          ```
+          
+this project has been built upon the work of the following people
+
+###### Credits to the original creator:
 
 
-Credits to the original creator:
-```
-Execute All Packages Within SSIS Project Catalog V 1.0
+```Execute All Packages Within SSIS Project Catalog V 1.0
 
 Execute All Packages Within SSIS Project Catalog v1.0 (2015-07-06) (C) 2015, select SIFISO
 Feedback: mailto:sifiso@selectsifiso.co.za
